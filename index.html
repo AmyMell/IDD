@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amy</title>
+    <link rel="stylesheet" href="Style.css" />
+    <style>
+      .all {
+        display: grid;
+        grid-template-columns: 5fr 3fr 2fr;
+        grid-template-rows: 100px auto;
+        grid-template-areas: 
+            'over over over'
+            'side side cart'
+            'side side cart'
+            
+        ;
+        height: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="all">
+    <div style="grid-area: over">
+      <div class="top">
+        <div class="name">Amy Melletun</div>
+        <div><img src="" alt=""></div>
+    </div>
+    </div>
+    <div style="grid-area: side" class="shop" id="background">
+
+        <ul>Hi my name is Amy i am 22 years old .</ul>
+        <ul>I live in Mysen with my mom and Step-dad.</ul>
+        <ul>My favorite color is purple.</ul>
+        <p>.... i dont know what else too sayzzzz</p>
+        <div class="shrek">
+          <img src="img/shrek.jpg" class="img">
+          <p>profile pic</p>
+        </div>
+        <Div>
+          <ul><button class="dark" onclick="darkmode('dimgrey')">dark</button><button class="light" onclick="lightmode()">light</button></ul>
+          </Div>
+      
+    </div>
+    <div style="grid-area: cart" class="cart">
+        <h2 class="hobbybig">My top Hobbys</h2>
+        <li>blender/unity</li>
+        <li>Vr</li>
+        <li>Videogames</li>
+        <li>manga</li>
+
+        <script>
+          function darkmode(color){
+            document.getElementById('background').innerHTML = /*html*/`
+             <div style="background-color:${color}; ">
+              <ul>Hi my name is Amy i am 22 years old .</ul>
+        <ul>I live in Mysen with my mom and Step-dad.</ul>
+        <ul>My favorite color is purple.</ul>
+        <p>.... i dont know what else too sayzzzz</p>
+        <div class="shrek">
+          <img src="img/shrek.jpg" class="img">
+          <p>profile pic</p>
+        </div>
+        <Div>
+          <ul><button class="dark" onclick="darkmode('dimgrey')">dark</button><button class="light" onclick="lightmode()">light</button></ul>
+          </Div>
+              </div>
+            
+             `;
+            }
+
+
+
+
+        </script>
+      
+    
+    </div>
+    </div>
+  </body>
+</html>

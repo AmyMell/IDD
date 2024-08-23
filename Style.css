@@ -1,0 +1,73 @@
+.top {
+  border: 5px solid black;
+  height: 130px;
+  font-size: 50px;
+  background-color: rgb(80, 22, 109);
+  color: azure;
+  font-size: 80px;
+  margin: 0px;
+}
+.shop {
+  border: 5px solid rgb(115, 115, 115);
+  height: auto;
+  font-size: 50px;
+  flex-wrap: wrap;
+  justify-content: center
+  
+
+}
+.cart {
+  border: 5px solid black;
+  height: auto;
+  font-size: 50px;
+  background-color: #80629b;
+  color: white;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
+.name {
+  margin: auto;
+}
+
+.hobbybig {
+  border: 3px solid rgb(0, 0, 0);
+  background-color: black;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+
+.shrek {
+width: 550px;
+border: 5px solid black ;
+
+justify-content: center;
+flex-wrap: wrap;
+ }
+
+ .img {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  justify-content: center;
+  box-flex: 1 1 100px;
+  margin: 5px;*
+  width: 400px;
+  height: 300px;
+  background-color: white;
+
+ }
+ 
+ .all {
+
+ }
+
+ .dark {
+
+ }
+
+ .light{
+
+
+ }
